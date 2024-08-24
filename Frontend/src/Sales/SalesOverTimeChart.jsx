@@ -9,7 +9,7 @@ const SalesOverTimeChart = () => {
   useEffect(() => {
     const fetchSalesData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/sales-over-time');
+        const response = await axios.get('https://visualdashboardreact.onrender.com/api/sales-over-time');
         const salesData = response.data;
 
         if (salesData && Array.isArray(salesData)) {

@@ -12,7 +12,7 @@ const CustomerDistributionChart = () => {
   useEffect(() => {
     const fetchCityData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/customer-distribution-by-city');
+        const response = await axios.get('https://visualdashboardreact.onrender.com/api/customer-distribution-by-city');
         const cityData = response.data;
         
         

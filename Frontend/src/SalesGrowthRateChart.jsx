@@ -15,7 +15,7 @@ const SalesGrowthRateChart = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/sales-growth-rate-daily');
+        const response = await axios.get('https://visualdashboardreact.onrender.com/api/sales-growth-rate-daily');
         const growthData = response.data;
 
         if (growthData.length === 0) {

@@ -1,0 +1,42 @@
+
+
+.chartComponenet{
+    background-color: rgba(128, 128, 128, 0.093);
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    color: #555555;
+    
+    
+}
+.mychart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #333333;
+    font-weight: 600;
+    height: fit-content;
+    
+}
+.charts{
+    width: 95%;
+    height: 60vh;
+    background-color:white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+
+}
+.mychart>h1{
+   text-align: center; 
+   color: #555555;
+   font-weight: 200;
+}
+.side{
+    width: 24%;
+    height: 90vh;
+    margin-top: 80px;
+}

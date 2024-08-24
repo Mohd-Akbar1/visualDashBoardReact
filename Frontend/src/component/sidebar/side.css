@@ -1,0 +1,35 @@
+.sidebar{
+    width: 22%;
+    /* background-color: aliceblue; */
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contentbar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contentbar,.UIelement{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sideNav{
+    /* border: 1px solid rgba(0, 0, 0, 0.319); */
+    width: 80%;
+    padding:  5px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 15px;
+}
+.sideNav:hover{
+    background-color: rgba(0, 0, 255, 0.801);
+    color: rgba(255, 255, 255, 0.778);
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

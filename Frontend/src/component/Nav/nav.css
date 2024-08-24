@@ -1,0 +1,82 @@
+.NavMainContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.Navheader{
+    width: 100%;
+    
+    display: flex;
+    
+}
+.Info{
+    display: flex;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.searchBar{
+    
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Profile{
+    flex: 1;
+}
+#Searchuser{
+    width: 90%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    
+}
+
+.allsearchcontainer{
+    background-color: rgba(0, 0, 0, 0.033);
+    /* background-color: aliceblue; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.Profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    font-size: 25px;
+    color: blue;
+}
+.name{
+    font-weight: 600;
+    line-height: 0.5;
+    font-size: 1rem;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.name>span{
+    color: red;
+}
+
+
+.name .designation{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.586);
+}

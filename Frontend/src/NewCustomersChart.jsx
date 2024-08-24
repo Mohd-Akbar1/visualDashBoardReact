@@ -12,7 +12,7 @@ const NewCustomersChart = ()=> {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/new-customers-over-time');
+        const response = await axios.get('https://visualdashboardreact.onrender.com/api/new-customers-over-time');
         const newCustomersData = response.data;
        
         if (newCustomersData.length === 0) {
